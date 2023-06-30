@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пром-ПК.UA!</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="32x32"
+      href="favicon-Prom_PC32X32.ico"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="16x16"
+      href="favicon-Prom_PC16X16.ico"
+    />
+    <link rel="manifest" href="site.webmanifest" />
+    <style>
+      .round_img {
+        width: 100%;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 0 0 25px rgba(26, 9, 9, 0.4);
+        padding: 0.2em;
+        margin-bottom: 1em;
+      }
+     .r_small_img {
+        width: 60%;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 0 0 25px rgba(26, 9, 9, 0.4);
+        padding: 0.2em;
+        margin-bottom: 1em;
+      }
+      .round_nav {
+        width: 100%;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0 0 25px rgba(26, 9, 9, 0.4);
+        padding: 0.2em;
+      }
+
+.box {
+    position: relative;
+    
+    width: 100%;
+    height: 600px;
+     }
+
+iframe {
+    position: absolute;
+    border: 1px solid gray;
+    top: 10px;
+bottom: 10px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+hr {
+	color: #212529; /* Устанавливаем цвет линии */
+	background-color: #212529; /* Для кроссбраузерности (Opera и Mozilla Firefox) */
+	height: 3px; /* Задаем толщину */
+	border: none; /* Отменяем отображение границы (в браузере Firefox) */
+   }
+body {
+    background-image: url(pcb-612x612.jpg); /* Путь к фоновому изображению */
+    background-attachment: fixed; /* Фиксируем фон веб-страницы */
+
+   }
+
+a.primer{ color: #000080; text-decoration: none;}
+a.primer:active {color:#080008;text-decoration:none;}
+a.primer:visited {color:#343a40;text-decoration:none;}
+a.primer:hover{color:#800080; border-bottom: 1px solid purple;}
+
+
+    </style>
+  </head>
+  <body>
+<!--<body bgcolor="#000" background="pcb-612x612.jpg">-->
+
+<!-------#ee6206------------bg-body-tertiary---------style="background-color: #0dcaf0;"-----#f8f9fa------sticky-top------------------>
+<nav class="navbar navbar sticky-top navbar-expand-lg">
+  <div class="container round_img" style="background-color: #fff;">
+   <a class="navbar-brand p-0" href="index.html">
+          <img src="I_PC2_img.png" alt="Logo" style="border-radius: 50%; border: 1px solid gray;" width="40"/>
+<span class="navbar-brand mb-3 h5 text-muted">Prom_PC.UA</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" role="navigation" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+<div class="btn-group">
+  <button type="button" class="btn btn-bd-accent btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Екстрім_ПК
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item" href="index.html#GetacX600">Getac X600</a></li>
+    <li><a class="dropdown-item" href="index.html#VecowECS-9771">Vecow ECS-9771</a></li>
+<!--<li><a class="dropdown-item" href="#">-</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">-</a></li>-->
+  </ul>
+</div>
+<div class="btn-group">
+  <button type="button" class="btn btn-bd-accent btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Вбудовані рішення
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item" href="#">Perfectron OXY5741A</a></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+  <!--<li><a class="dropdown-item" href="#">-</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">-</a></li>-->
+  </ul>
+</div>
+<!--<div class="btn-group">
+  <button type="button" class="btn btn-bd-accent btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    ПромМережа
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item" href="#">Etherwan EX73900Х</a></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+  </ul>
+</div>
+<div class="btn-group">
+  <button type="button" class="btn btn-bd-accent btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    DIY:Зроби-сам!
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item" href="#">LCD panel G190EG02_V1_AUO + HE-1400</a></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+  </ul>
+</div>
+<div class="btn-group">
+  <button type="button" class="btn btn-bd-accent btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Технології та винаходи
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item" href="#">-</a></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+  </ul>
+</div>-->
+<div class="btn-group">
+  <button type="button" class="btn btn-bd-accent btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Помічник-інженера
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item" href="usb.html">USB</a></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+  <!--<li><a class="dropdown-item" href="#">-</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">-</a></li>-->
+  </ul>
+</div>
+
+            </li>
+          </ul>
+        </div>
+  </div>
+</nav>
+<!-------------------------------------------------------------------------->
+
+    <div class="container text-start my-2">
+
+      <div class="row">
+
+        <div class="col-lg-6 col-md-10 mx-auto">
+
+<a href="usb.html" target="_self" class="btn btn-outline-dark btn-sm my-3"><b>
+            #ПомічникІнженера
+          </b></a>
+
+          <h2 id="USB" class="fw-weight-normal">USB 2.0 та 3.0: відмінності та розвиток інтерфейсу.</h2>
+<p></p>
+          <center><img class="r_small_img" src="usb_logo2.jpg"  alt="USB-Лого" /></center>
+         
+<p></p>
+<p class="fst-normal"><a href="https://uk.wikipedia.org/wiki/USB" class="primer"><b>USB</b></a> (Universal Serial Bus - "Універсальна послідовна шина") - послідовний інтерфейс для підключення периферійних пристроїв до обчислювальної техніки.
+ Набув широкого поширення і став основним інтерфейсом підключення периферії до побутової цифрової техніки.
+</p>
+<p class="fst-normal">Інтерфейс дозволяє не тільки обмінюватись даними, а й забезпечувати електроживлення периферійного пристрою. Мережева архітектура дозволяє підключати велику кількість периферій навіть до пристрою з одним роз'ємом USB.
+</p>
+<p class="fst-normal">Розробка специфікацій USB проводиться в рамках міжнародної некомерційної організації USB Implementers Forum (USB-IF), що об'єднує розробників та виробників обладнання з USB шиною.
+          </p>
+<p>Кабель USB (до 2.0 включно) складається з чотирьох мідних провідників: двох провідників живлення та двох провідників даних у кручений парі. Провідники укладені в заземлене обплетення (екран).
+</p>
+<p></p>
+          <img class="round_img" src="usb_schema.jpg" alt="USB-Схема" />
+         
+          <h5><small class="text-muted"><em>
+            Схемотехніка портів USB Full (1.1) та High (2.0) Speed.</em></small>
+           </h5
+<p></p>
+<p class="fst-normal">Кабелі USB орієнтовані, тобто мають фізично різні наконечники підключення до пристрою (Тип B) і до хоста (Тип A).
+За допомогою кабелів формується інтерфейс між USB-пристроями та USB-хостом. Як хост виступає програмно-керований USB-контролер,
+ який забезпечує функціональність всього інтерфейсу.
+</p>
+<p class="fst-normal">Пристрої можуть бути запитані від шини, але можуть вимагати зовнішнього джерела живлення. За умовчанням пристроям гарантується струм до 0,1А, а після погодження з хост-контролером – до 0,5А
+</p>
+<p></p>
+          <img class="round_img" src="usb-type.jpg" alt="Типи USB-роз'ємів" />
+         
+          <h5><small class="text-muted"><em>
+            Найбільш поширені типи роз’ємів USB</em></small>
+           </h5
+<p></p>
+<p class="fst-normal">USB підтримує «гаряче» підключення та вимкнення пристроїв. Це досягнуто збільшеною довжиною заземлювального контакту роз'єму по відношенню до сигнальних.
+ При підключенні роз'єму USB першими замикаються заземлюючі контакти, потенціали корпусів двох пристроїв стають рівними і подальше з'єднання сигнальних провідників не призводить до перенапруг.
+          </p>
+<p class="fst-normal">На логічному рівні пристрій USB підтримує транзакції прийому та передачі даних. Кожен пакет кожної транзакції містить номер кінцевої точки (endpoint) на пристрої.
+ При підключенні пристрою драйвери в ядрі ОС читають із пристрою список кінцевих точок та створюють керуючі структури даних для спілкування з кожною кінцевою точкою пристрою. Сукупність кінцевої точки та структур даних у ядрі ОС називається каналом (pipe).
+</p>
+<p class="fst-normal">Кінцеві точки, отже, і канали, відносяться до одного з чотирьох класів - потоковий (bulk), керуючий (control), ізохронний (isoch) та переривання (interrupt).
+</p>
+<p class="fst-normal">Керуючий канал призначений для обміну з пристроєм короткими пакетами запитання-відповідь. Будь-який пристрій має керуючий канал 0, який дозволяє програмному забезпеченню ОС прочитати коротку інформацію про пристрій,
+ у тому числі коди виробника та моделі, що використовуються для вибору драйвера, та список інших кінцевих точок.
+</p>
+<p class="fst-normal">Канал переривання дозволяє доставляти короткі пакети і в тому, і в іншому напрямку без отримання на них відповіді/підтвердження, але з гарантією часу доставки пакет буде доставлений не пізніше ніж через N мілісекунд.
+ Наприклад, використовується у пристроях введення (клавіатури, миші, джойстики).
+</p>
+<p class="fst-normal">Ізохронний канал дозволяє доставляти пакети без гарантії доставки і без відповідей/підтверджень, але з гарантованою швидкістю доставки N пакетів на один період шини (1 кГц для low і full speed, 8 кГц для high speed).
+ Використовується для передачі аудіо та відеоінформації.
+</p>
+<p class="fst-normal">Поточний канал дає гарантію доставки кожного пакета, підтримує автоматичне призупинення передачі даних при неготовності пристрою (переповнення або спустошення буфера), але не дає гарантії швидкості та затримки доставки.
+ Використовується, наприклад, у принтерах та сканерах.
+</p>
+<p class="fst-normal">Час шини ділиться на періоди, на початку періоду контролер передає всій шині пакет «початок періоду».
+ Далі протягом періоду передаються пакети переривань, потім ізохронні в необхідній кількості, в час, що залишився, в періоді передаються керуючі пакети і в останню чергу - потокові.
+</p>
+<p>
+</p>
+<h4><small class="fw-weight-normal">
+            Plug and Play</small>
+           </h4>
+<p></p>
+<p class="fst-normal">Розробники специфікації USB приділили увагу питанню автоматичного визначення функціональності USB пристроїв, щоб позбавити користувача рутинних дій при підключенні USB пристроїв. Для цього у стандарті передбачено два механізми:
+          </p>
+<p class="fst-normal">• Пристрій повідомляє хосту свої атрибути, куди входить ідентифікатор розробника пристрою (VID) та ідентифікатор виробу (PID).
+ На підставі цих ідентифікаторів хост (комп'ютер) шукає методи роботи з цим пристроєм (зазвичай це виражається у вимогі встановити драйвери, що постачаються розробником пристрою).
+</p>
+<p class="fst-normal">• Пристрій повідомляє хосту ідентифікатор стандартизованого класу пристроїв. В рамках концепції USB розроблено низку специфікацій стандартних класів пристроїв, у рамках яких уніфіковано роботу з пристроями певної функціональності.
+ Наприклад, широко відомі пристрої класу Human Interface Device, HID (це мишки, клавіатури, ігрові маніпулятори тощо) та пристрої Mass Storage («флешки», дисководи). Для популярних класів пристроїв у комп'ютерах є готові драйвери, тому з'єднання таких пристроїв відбувається непомітно для користувача.
+</p>
+<h4><small class="fw-weight-normal">
+            USB 3.x</small>
+           </h4>
+<p></p>
+<p class="fst-normal">Специфікація USB 3.0 підвищує максимальну швидкість передачі інформації до 5 Гбіт/с, що значно більше швидкості, яку може забезпечити USB 2.0. Також версія 3.0 відрізняється збільшеною з 0,5 А до 0,9 А силою струму. Таким чином, від одного порту можна живити більше пристроїв,
+ а також відпадає необхідність використання зовнішнього живлення для деяких пристроїв. У специфікації USB 3.0 роз'єми та кабелі оновленого стандарту фізично та функціонально сумісні з USB 2.0, причому для однозначної ідентифікації роз'єми USB 3.0 прийнято виготовляти із пластику синього кольору (у деяких виробників – червоного).
+          </p>
+<p class="fst-normal">Кабель USB 2.0 містить чотири лінії — пару для прийому/передачі даних, плюс і нуль живлення, роз'єм «A» має 4 контакти.
+</p>
+<p class="fst-normal">Для передачі високошвидкісних SuperSpeed сигналів USB 3.0 додано ще чотири лінії зв'язку (дві виті пари) і один контакт сигнальної землі (GND_DRAIN). Дві додаткові диференціальні пари в USB 3.0 дозволяють підтримувати повнодуплексну передачу даних,
+ а контакт GND_DRAIN призначений для закінчення дренажного проводу, а також для контролю електромагнітних перешкод та підтримки цілісності сигналу.
+</p>
+<p class="fst-normal">Нові контакти в роз'ємах USB 3.0 розташовані окремо від старих в іншому контактному ряду.
+</p>
+<p></p>
+          <img class="round_img" src="usb2-usb3.jpg" alt=" USB2.0-3.0" />
+         
+          <h5><small class="text-muted"><em>
+            Відмінності в розпіновці контактів роз'ємів USB 2.0 та USB 3.0</em></small>
+           </h5
+<p>
+</p>
+<h4><small class="fw-weight-normal">
+            Розпіновка роз'єму USB 3.0</small>
+           </h4>
+<p></p>
+<p class="fst-normal">Більш детальний опис с призначенням наявних контактів роз'єма USB 3.0 Тип А:
+          </p>
+<p></p>
+          <img class="round_img" src="Tab_usb3.png" alt="Tab USB3.0" />
+<p></p>
+          <center><img class="r_small_img" src="USB_3.0.png" alt="Img USB3.0" /></center>
+         <h5><small class="text-muted"><center><em>
+            Розміщеня пінів роз'єму USB 3.0 тип А</em></center></small>
+           </h5>
+<p></p>
+<p class="fst-normal">Наступні ревізії USB 3.х дозволили збільшити максимально можливу швидкість передачі даних завдяки використанню дублюючих контактів як окремий канал у 24 пінових роз'ємах USB Type-C.
+ Відповідно були внесені поправки в роботу хост-адаптерів для плавного переходу між 2-канальним режимом дублюючих ліній до одноканального режиму.
+          </p>
+<p></p>
+          <img class="round_img" src="type-C_pinout.jpg" alt="Type-C_pinout" />
+          <h5><small class="text-muted"><em>
+            Розпіновка USB Type-C роз’єма.</em></small>
+           </h5>
+<h4><small class="fw-weight-normal">
+            USB4</small>
+           </h4>
+<p></p>
+<p class="fst-normal">Специфікацію USB4 було опубліковано 29 серпня 2019 року. Новий базовий протокол підвищує максимальну швидкість до 40 Гбіт/с (при використанні сумісних кабелів Type-C),
+ зберігаючи зворотну сумісність із USB 3.2, USB 2.0 та, опціонально, Thunderbolt 3.
+          </p>
+<p></p>
+<p class="fst-normal">Швидкість до 40 Гбіт/с досяжна лише зі спеціальними кабелями, що мають відповідне маркування. Для стандартних кабелів максимальна швидкість обмежена 20 Гбіт/с.
+          </p>
+<p></p>
+<p class="fst-normal">У листопаді 2022 року вийшла оновлена специфікація USB4 Version 2.0 із пропускною здатністю до 80 Гбіт/с
+          </p>
+<p></p>
+<p class="fst-normal">Наприкінці нижче наводяться дані про стандарти живлення за допомогою USB, а також загальна інфографіка розвитку інтерфейсу:
+          </p>
+<p></p>
+<img class="round_img" src="power_usb.jpg" alt="Tab USB-Power" />
+<p></p>
+          <img class="round_img" src="07_usb_type-c.jpg" alt="USB_Infograph" />
+          <h5><small class="text-muted"><em>
+            Інфографіка розвитку USB інтерфейсу</em></small>
+           </h5>
+         <p></p>
+          <a href="https://t.me/bt_engineer" target="_self" class="btn btn-primary my-3">
+            Запит на квотування
+          </a>
+          <a href="https://t.me/bt_engineer" target="_self" class="btn btn-warning my-3">
+            Задати питання
+          </a>
+        </div>
+<p></p>
+<hr/>
+      </div>
+<!---------next_page--------------------------->
+<div class="row">
+
+        <div class="col-lg-6 col-md-10 mx-auto">
+</div>
+      </div>
+<!---------next_page--------------------------->
+    </div>
+  </body>
+</html>
