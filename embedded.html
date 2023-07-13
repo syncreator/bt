@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пром-ПК.UA!</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="32x32"
+      href="favicon-Prom_PC32X32.ico"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="16x16"
+      href="favicon-Prom_PC16X16.ico"
+    />
+    <link rel="manifest" href="site.webmanifest" />
+    <style>
+      .round_img {
+        width: 100%;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 0 0 25px rgba(26, 9, 9, 0.4);
+        padding: 0.2em;
+        margin-bottom: 1em;
+      }
+     .r_small_img {
+        width: 60%;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 0 0 25px rgba(26, 9, 9, 0.4);
+        padding: 0.2em;
+        margin-bottom: 1em;
+      }
+      .round_nav {
+        width: 100%;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0 0 25px rgba(26, 9, 9, 0.4);
+        padding: 0.2em;
+      }
+
+.box {
+    position: relative;
+    
+    width: 100%;
+    height: 600px;
+     }
+
+iframe {
+    position: absolute;
+    border: 1px solid gray;
+    top: 10px;
+bottom: 10px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+hr {
+	color: #212529; /* Устанавливаем цвет линии */
+	background-color: #212529; /* Для кроссбраузерности (Opera и Mozilla Firefox) */
+	height: 3px; /* Задаем толщину */
+	border: none; /* Отменяем отображение границы (в браузере Firefox) */
+   }
+body {
+    background-image: url(pcb-612x612.jpg); /* Путь к фоновому изображению */
+    background-attachment: fixed; /* Фиксируем фон веб-страницы */
+
+   }
+
+a.primer{ color: #000080; text-decoration: none;}
+a.primer:active {color:#080008;text-decoration:none;}
+a.primer:visited {color:#343a40;text-decoration:none;}
+a.primer:hover{color:#800080; border-bottom: 1px solid purple;}
+
+
+    </style>
+  </head>
+  <body>
+<!--<body bgcolor="#000" background="pcb-612x612.jpg">-->
+
+<!-------#ee6206------------bg-body-tertiary---------style="background-color: #0dcaf0;"-----#f8f9fa------sticky-top------------------>
+<nav class="navbar navbar sticky-top navbar-expand-lg">
+  <div class="container round_img" style="background-color: #fff;">
+   <a class="navbar-brand p-0" href="index.html">
+          <img src="I_PC2_img.png" alt="Logo" style="border-radius: 50%; border: 1px solid gray;" width="40"/>
+<span class="navbar-brand mb-3 h5 text-muted">Prom_PC.UA</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" role="navigation" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+<div class="btn-group">
+  <button type="button" class="btn btn-bd-accent btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Екстрім_ПК
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item" href="index.html#GetacX600">Getac X600</a></li>
+    <li><a class="dropdown-item" href="index.html#VecowECS-9771">Vecow ECS-9771</a></li>
+<!--<li><a class="dropdown-item" href="#">-</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">-</a></li>-->
+  </ul>
+</div>
+<div class="btn-group">
+  <button type="button" class="btn btn-bd-accent btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Вбудовані рішення
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item" href="embedded.html#">LCD для Embedded</a></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+  <!--<li><a class="dropdown-item" href="#">Perfectron OXY5741A</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">-</a></li>-->
+  </ul>
+</div>
+<!--<div class="btn-group">
+  <button type="button" class="btn btn-bd-accent btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    ПромМережа
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item" href="#">Etherwan EX73900Х</a></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+  </ul>
+</div>
+<div class="btn-group">
+  <button type="button" class="btn btn-bd-accent btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    DIY:Зроби-сам!
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item" href="#">LCD panel G190EG02_V1_AUO + HE-1400</a></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+  </ul>
+</div>
+<div class="btn-group">
+  <button type="button" class="btn btn-bd-accent btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Технології та винаходи
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item" href="#">-</a></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+  </ul>
+</div>-->
+<div class="btn-group">
+  <button type="button" class="btn btn-bd-accent btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Помічник-інженера
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item" href="usb.html">USB</a></li>
+    <li><a class="dropdown-item" href="#">-</a></li>
+  <!--<li><a class="dropdown-item" href="#">-</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">-</a></li>-->
+  </ul>
+</div>
+
+            </li>
+          </ul>
+        </div>
+  </div>
+</nav>
+<!-------------------------------------------------------------------------->
+
+    <div class="container text-start my-2">
+
+      <div class="row">
+
+        <div class="col-lg-8 col-md-10 mx-auto">
+
+<a href="embedded.html" target="_self" class="btn btn-outline-dark btn-sm my-3"><b>
+            #ВбудованіРішення
+          </b></a>
+
+          <h2 id="LCD" class="fw-weight-normal">LCD матриця-підключаємо до ПК.</h2>
+<p></p>
+          <center><img class="round_img" src="photo_LCDX800.jpg"  alt="LCD_to_PC" /></center>
+         
+<p></p>
+<p class="fst-normal">Створення кастомних рішень вбудованих <a href="https://uk.wikipedia.org/wiki/%D0%A0%D1%96%D0%B4%D0%BA%D0%BE%D0%BA%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%BB%D1%96%D1%87%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D0%B9" class="primer"><b>LCD</b></a> дисплеїв, зазвичай, потребує розуміння його устрою та принципів функціонування.
+</p>
+<p class="fst-normal">Для того щоб підключити LCD матрицю до відеоінтерфейсу комп'ютера спробуємо трохи розібратися як вона працює.
+</p>
+<p class="fst-normal">Топологія абсолютно будь-якого рідкокристалічного (ЖК) екрану є матрицею, утвореною системою рядкових і стовпцевих електродів. При цьому кожен елемент зображення знаходиться на перетині рядка та стовпця (рис. 1).
+          </p>
+<p>Кількість рядків завжди менша за кількість стовпців. Для включення відповідного пікселя (точки) повинен бути обраний стовпець і повинен бути вказаний рядок, в якому знаходиться ця точка. В результаті буде додана певна керуюча напруга до елемента зображення. 
+Вибірка рядків та стовпців здійснюється перемиканням ключових транзисторів, які утворюють так звані, стовпцеві та рядкові драйвери.
+</p>
+<p>Звичайно, що кількість транзисторів, що містяться в стовпцевих драйверах, повинна точно відповідати кількості стовпців і те ж саме – для рядків.
+</p>
+<p></p>
+          <img class="round_img" src="lcd_matrix.jpg" alt="LCD-matrix-Structure" />
+         
+          <h5><small class="text-muted"><em>
+            Рис. 1. Структура розміщення пікселів на матриці LCD.</em></small>
+           </h5
+<p></p>
+<p class="fst-normal">Так, наприклад, у кольоровій панелі 1024×768 пікселів, міститься 1024 стовпця і 768 рядків, при цьому, оскільки панель кольорова, то й кожен елемент зображення складається ще з трьох елементів – червоного, зеленого та синього. Тому, така панель, швидше за все, міститиме 3072 стовпці (1024×3) та 768 рядків.
+ Таким чином, для керування цією панеллю потрібно 3072 +768 = 3840 транзисторів. Зазвичай ці масиви транзисторів виконані у вигляді інтегральної мікросхеми, яка при цьому розміщується у самій РК-панелі.
+</p>
+<p class="fst-normal">У той же час керуючі сигнали для перемикання цих транзисторів повинні формуватися мікропроцесором, який розташовується на основній платі управління монітором.
+ За допомогою плати управління монітором відбувається перетворення сигналів, що передаються від комп'ютера в сигнали управління РК-панеллю, тобто сигнали управління рядковими і стовпцевими драйверами. 
+</p>
+<p class="fst-normal">Існує кілька способів (кілька інтерфейсів) з'єднання РК-панелі та плати керування монітором. Але спочатку варто зазначити, що на виході цієї плати дані формуються у вигляді цифрових сигналів, які зазвичай відповідають рівням TTL, і при цьому дані видаються в паралельному коді.
+ У цьому паралельному коді кожному кольору відповідає до 8 бітів, тобто кожна кольорова точка на виході процесора описується 24 бітами. Крім того, для синхронізації переданих даних на виході плати монітору формуються сигнали рядкової та кадрової синхронізації, що визначають початок рядка та початок нового кадру.
+</p>
+<p class="fst-normal">Збільшення роздільної здатності екранів, тобто збільшення кількості пікселів, призвело до зростання швидкості передачі даних і знадобилося ввести до складу дисплея схему управління синхронізацією,
+ прийому та розподілу сигналів за рядковими та стовпцевими драйверами – контролер синхронізації – TCON (Timing Controller), що фізично розміщується всередині РК-панелі. 
+</p>
+<p class="fst-normal">TCON знаходиться між платой керування та драйверами. Це дозволило зменшити кількість необхідних ліній для передачі керуючих сигналів від плати контролера дисплея, а також підвищує надійність системи, завдяки послідовному способу передачі даних.
+</p>
+<p class="fst-normal">Однак на виході мікропроцесора дані формуються в паралельному коді, і тому потрібне перетворення паралельного коду на послідовний. Це призводить до необхідності додавання в архітектуру ланцюжка – перетворення паралельного коду від мікропроцесора у послідовний код та зворотного перетворення на стороні РК панелі.
+ Таким чином, даний варіант передачі даних на РК -панель можна подати у вигляді системи шифратор (передавач – Receiver) – дешифратор (приймач – Transmitter) (рис. 2).
+</p>
+<p></p>
+          <img class="round_img" src="lcd6.jpg" alt="LCD-matrix-SimpleScheme" />
+         
+          <h5><small class="text-muted"><em>
+            Рис. 2. Спрощена принципова схема роботи РК -дисплея.</em></small>
+           </h5
+<p></p>
+<p class="fst-normal">Отже, виходячи із загальних принципів роботи РК-дисплеїв, зрозуміло, що для підключення LCD матриці нам знадобиться плата контролера управління дисплея (іноді її називають скалер).
+          </p>
+<p class="fst-normal">Вона необхідна для перетворення вхідного сигналу від ПК або іншого джерела відеосигналу, в "зрозумілий" РК-матриці інтерфейс.
+</p>
+<p class="fst-normal">Існує кілька різних інтерфейсів підключення РК матриць. Найбільш поширені в сучасних панелях це: LVDS і eDP. Якщо ви не знаєте який інтерфейс у вашої матриці, це можна дізнатися в документації виробника.
+</p>
+<p class="fst-normal">Окремо слід згадати про підсвічування LCD матриці. Принцип роботи LCD передбачає необхідність підсвічування екрана окремим джерелом світла, оскільки рідкі кристали самі світло не випромінюють.
+</p>
+<p class="fst-normal">Зазвичай у LCD використовуються два типи підсвічування: із застосуванням флуоресцентних ламп із холодним катодом (CCFL) або із застосуванням світлодіодів (LED).
+ CCFL - це фактично набір трубок, розташованих горизонтально за екраном, плюс рефлектор, у зв'язку з чим такий тип підсвічування робить панель громіздкою і ускладнює контроль над контрастністю.
+</p>
+<p class="fst-normal">LED-підсвічування вважається більш функціональним та економічним рішенням. Тому зараз переважає саме LED.
+</p>
+<p class="fst-normal">Методів підсвічування LCD-панелі за допомогою LED-ламп два: матрична (Backlit) та бічна (Edgelit).
+ Основна перевага матричного методу, що передбачає розміщення ламп за панеллю, полягає у можливості збільшення рівня контрастності зображення за допомогою відключення певних світлодіодів.
+</p>
+<p class="fst-normal">У свою чергу, бічне підсвічування дозволяє робити дисплей набагато тоншим, оскільки лампи за такої схеми розташовуються з боків панелі, а не за нею.
+</p>
+<p class="fst-normal">Таким чином функції живлення та керування підсвічуванням РК дисплея реалізуються або окремою платою драйвером, або вбудованим у плату скалера драйвером.
+</p>
+<p class="fst-normal">Так, зазвичай, виглядає схема підключення помпонентів LCD дисплея (рис. 3).
+</p>
+<p></p>
+          <img class="round_img" src="lcd_chem.png" alt="LCD-Component-Scheme" />
+         
+          <h5><small class="text-muted"><em>
+            Рис. 3. Схема підключення помпонентів TFT LCD дисплея.</em></small>
+           </h5
+<p>
+</p>
+<p class="fst-normal">Так , враховуючи нетривіальність завдання по складанню дисплея для особистих потреб, важливо при виборі необхідних комплектуючих переконатися в їхній сумісності,
+ адже в цьому питанні виникає багато нюансів.
+          </p>
+<p class="fst-normal">Щоб уникнути зайвих втрат часу та грошей пропоную скористатися послугами підбору сумісних компонентів для ваших проектів за допомогою наших фахівців.
+ Пішить нам в <a href="https://web.telegram.org/" class="primer"><b>Telegram</b></a> на: <a href="https://t.me/bt_engineer" ><b><em>@bt_engineer</em></b></a> і ми допоможемо придбати саме те що вам потрібно.
+</p>
+
+         <p></p>
+          <a href="https://t.me/bt_engineer" target="_self" class="btn btn-primary my-3">
+            Запит на квотування
+          </a>
+          <a href="https://t.me/bt_engineer" target="_self" class="btn btn-warning my-3">
+            Задати питання
+          </a>
+        </div>
+<p></p>
+<hr/>
+      </div>
+<!---------next_page--------------------------->
+<div class="row">
+
+        <div class="col-lg-6 col-md-10 mx-auto">
+</div>
+      </div>
+<!---------next_page--------------------------->
+    </div>
+  </body>
+</html>
